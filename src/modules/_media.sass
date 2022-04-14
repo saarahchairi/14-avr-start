@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px)
+    main
+        .container
+            .row
+                justify-content: space-evenly !important
+
+@media screen and (max-width: 760px)
+    main
+            .container
+                .row
+                    flex-direction: column
+                    .col-4
+                        display: flex !important
+                        flex-wrap: wrap !important
+                        width: 100% !important
+                        justify-content: center !important
+                        p
+                            text-align: justify !important
+                .row:first-child , .row:last-child
+                    flex-direction: column-reverse !important
+
+@media screen and (max-width: 375px)
+    header
+        nav
+            .container
+                flex-direction: column !important
+        .banner
+            .container
+                h2
+                    margin-bottom: 2em
+                .btn
+                    margin: 0 !important
+    main
+            .container
+                .row
+                    flex-direction: column
+                    .col-4
+                        display: flex !important
+                        flex-wrap: wrap !important
+                        width: 100% !important
+                        justify-content: center !important
+                        p
+                            text-align: justify !important
+                .row:first-child , .row:last-child
+                    flex-direction: column-reverse !important
+
+
