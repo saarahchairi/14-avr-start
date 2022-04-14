@@ -11118,5 +11118,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header .navbar {
+  background-color: #00004c;
+}
+header .navbar .menu a {
+  color: #6d6d99;
+}
+header .banner {
+  background-color: #0000ff;
+}
+header .banner .btn {
+  background-color: #ee0979;
+  border-radius: 30px;
+}
 
 /*# sourceMappingURL=app.css.map */
